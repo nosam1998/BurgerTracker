@@ -11,7 +11,7 @@ if (process.env.TEST_MODE == true || process.env.TEST_MODE == null) {
         database: "burger_db"
     });
 } else {
-    connnection = mysql.createConnection(process.env.JAWSDB_URL);
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
 }
 
 
